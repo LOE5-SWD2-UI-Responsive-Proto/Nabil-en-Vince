@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Vince">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserveren</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Vince.js" defer></script>
+</head>
+
+<body>
+<header class="header">
+    <article id="hamburger">☰</article>
+    <section class="logo">
+        <img src="img/34960292-0b54-4d9c-980d-0017e690b882.png" alt="UmamiSushi">
+    </section>
+    
+    <section class="zoek">
+        <input type="text" placeholder="Zoeken...">
+    </section>
+
+ <nav id="nav" class="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="informatie.html">Informatie</a>
+        <a href="reserveren.html">Reserveren</a>
+        <a href="vacatures.html">Vacatures</a>
+    </nav>
+</header>
+
+<main>
+    <h1 class="reserveren-titel">Reserveren</h1>
+
+    <section class="container">
+        <form id="reservatieForm">
+
+            <label>Naam Achternaam</label>
+            <input type="text" id="naam" required>
+
+            <label>E-mail</label>
+            <input type="email" id="email" required>
+
+            <label>Telefoonnummer</label>
+            <input type="tel" id="telefoon" required>
+
+            <label>Datum</label>
+            <input type="date" id="datum" required>
+
+            <label>Tijd</label>
+            <input type="time" id="tijd" required>
+
+            <label>Aantal personen</label>
+            <input type="number" id="personen" required>
+
+            <button type="submit">Reserveren</button>
+
+        </form>
+
+        <p id="resultaat"></p>
+    </section>
+</main>
+
+<footer class="footer">
+    <span>Vacatures</span>
+    <span>Contact</span>
+    <span>Algemene voorwaarden</span>
+</footer>
+<script src="Vince.js" defer></script>
+</body>
+</html>
